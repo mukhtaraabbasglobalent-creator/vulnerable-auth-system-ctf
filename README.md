@@ -1,7 +1,7 @@
 # Vulnerable Authentication System (CTF Practice)
 
-This project is a deliberately vulnerable authentication system built
-for cybersecurity learning and Capture The Flag (CTF) practice.
+This project is a deliberately vulnerable authentication system built for
+cybersecurity learning and Capture The Flag (CTF) practice.
 
 ⚠️ **Warning:** This application is intentionally insecure and MUST NOT be used in production.
 
@@ -10,26 +10,23 @@ for cybersecurity learning and Capture The Flag (CTF) practice.
 ## 🔓 Demonstrated Vulnerabilities
 
 - Authentication bypass (Broken Access Control)
-- Plain-text password storage (CWE-256)
+- Plain-text password storage (**CWE-256**)
 - Legacy authentication protocol usage
 - Missing encryption enforcement
-- Firewall misconfiguration
+- Insecure security configuration (Firewall misconfiguration)
 
 ---
 
-## 🎯 Learning Objectives
+## 🎯 Project Objectives
 
-- Identify authentication flaws
-- Understand why plain-text passwords are dangerous
-- Map vulnerabilities to CWE and OWASP Top 10
-- Practice secure system design and remediation
+This project was created to help learners and junior security professionals:
+
+- Understand common authentication vulnerabilities
+- Practice identifying insecure implementations
+- Map vulnerabilities to **CWE** and **OWASP Top 10**
+- Learn how insecure systems are exploited in real-world scenarios
+- Compare vulnerable vs secure authentication designs
 
 ---
 
 ## 🏴 Example CTF Flag
----
-
-## 📚 References
-
-- OWASP Top 10
-- CWE-256: Plaintext Storage of a Password
