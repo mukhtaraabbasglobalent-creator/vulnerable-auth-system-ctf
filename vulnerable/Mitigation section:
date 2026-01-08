@@ -1,0 +1,7 @@
+### Evidence
+The vulnerability is present in the following file:
+- `vulnerable/login.js`
+
+### References
+- CWE-798: Use of Hard-coded Credentials
+- OWASP Top 10 – A07: Identification and Authentication Failures
